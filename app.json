@@ -1,0 +1,21 @@
+{
+    "name": "",
+    "description": "Telegram Bot to ...",
+    "keywords": [
+        "telegram"
+    ],
+    "repository": "https://github.com/",
+    "logo": "https://telegra.ph/file/dd7933d25477c161b7d52.png",
+    "success_url": "https://telegram.dog/xdbots",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Bot Token from @BotFather",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}
