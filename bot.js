@@ -7,7 +7,7 @@ dotenv.config();
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.start((ctx) => {
-    ctx.reply('hi');
+    ctx.reply('hi '+ctx.from.first_name);
 })
 
 bot.launch();
