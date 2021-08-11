@@ -1,5 +1,5 @@
-# TG-String-Session
-Generate String Session Using this bot.
+# test-Nodejs-bot
+Learning Bot making with language nodejs.
 
 ## Configs:
 - API_HASH
