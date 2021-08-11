@@ -10,4 +10,7 @@ bot.start((ctx) => {
     ctx.reply('hi '+ctx.from.first_name);
 })
 
+bot.help((ctx) => {
+    ctx.reply('hi '+ctx.from.username);
+})
 bot.launch();
