@@ -4,7 +4,8 @@
   "description": "",
   "main": "bot/bot.js",
   "scripts": {
-    "start": "node bot/.js"
+    "start": "node bot/bot.js",
+     "start": "node bot/bot.js"
   },
   "keywords": [],
   "author": "",
