@@ -1,4 +1,4 @@
-import bot, { log } from './bot';
+import * from './bot';
 
 const { Telegraf } = require('telegraf')
 
