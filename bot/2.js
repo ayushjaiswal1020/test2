@@ -1,3 +1,5 @@
+Import {bot} from bot
+
 const { Telegraf } = require('telegraf')
 
 const token = process.env.BOT_TOKEN
