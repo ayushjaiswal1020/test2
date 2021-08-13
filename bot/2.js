@@ -1,4 +1,4 @@
-Import {bot} from bot
+Import {bot} from 'bot';
 
 const { Telegraf } = require('telegraf')
 
